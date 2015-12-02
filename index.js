@@ -23,7 +23,10 @@ pageMod.PageMod({
 	'*.sumo.tv2.no',//+
 	'*.se.sbsdiscovery.no',
 	'*.viaplay.no',
-    '*.youtube.com'//+
+    '*.youtube.com',
+	'*.netflix.com',
+	'*.cmore.no',
+	'*.hbonordic.com'
   ],
   contentScriptFile: [self.data.url("jquery.min.js"), self.data.url("toolbar.js"), self.data.url("scframe.js")],
   contentStyleFile: [self.data.url("styleSites.css"), self.data.url("pp.css"), self.data.url("scframe.css"),
